@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:src">@drawable/quiz</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:contentDescription">@string/logo</item>
+    </style>
+
+    <style name="AppName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="NTV" parent="AppName">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="QTV" parent="NTV">
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="AnsRadio">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">Answer lie here</item>
+
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+
+        <item name="android:background">@drawable/bg_ans</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:button">@android:color/transparent</item>
+    </style>
+
+    <style name="SubmitBTN" parent="AnsRadio">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">@drawable/bg_submit</item>
+        <item name="android:text">@string/submit</item>
+        <item name="android:onClick">submit</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="ResultTV" parent="QTV">
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/custom_progressbar</item>
+        <item name="android:progressDrawable">@drawable/custom_progressbar</item>
+        <item name="android:progressBackgroundTint">@android:color/transparent</item>
+        <item name="android:progressTint">@color/progress</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">25dip</item>
+    </style>
+
+</resources>

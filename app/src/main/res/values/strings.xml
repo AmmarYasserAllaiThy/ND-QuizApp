@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="logo">Logo</string>
+    <string name="welcome_text">An Android Nano Degree Program\'s (ANDP) practical project on Udacity.</string>
+    <string name="my_name">AmmarYasserAllaiThy</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="question_id">%1$d of %2$d</string>
+    <string name="submit">Submit</string>
+    <string name="quiz_result">Quiz result</string>
+    <string name="correct_answers">%1$d Correct Answers</string>
+    <string name="wrong_answers">%1$d Wrong Answers</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/CustomProgressBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/nTV"
+            style="@style/NTV" />
+
+        <TextView
+            android:id="@+id/qTV"
+            style="@style/QTV"
+            android:background="#F9F9F9" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ansRadio_1"
+                style="@style/AnsRadio" />
+
+            <RadioButton
+                android:id="@+id/ansRadio_2"
+                style="@style/AnsRadio" />
+
+            <RadioButton
+                android:id="@+id/ansRadio_3"
+                style="@style/AnsRadio" />
+
+            <RadioButton
+                android:id="@+id/ansRadio_4"
+                style="@style/AnsRadio" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button style="@style/SubmitBTN" />
+
+</RelativeLayout>

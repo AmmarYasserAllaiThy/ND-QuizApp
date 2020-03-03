@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView style="@style/Logo" />
+
+        <TextView style="@style/AppName" />
+
+        <TextView
+            style="@style/NTV"
+            android:text="@string/welcome_text" />
+
+        <TextView
+            style="@style/NTV"
+            android:layout_width="wrap_content"
+            android:drawableStart="@drawable/ic_github"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="@string/my_name" />
+    </LinearLayout>
+
+    <Button
+        style="@style/SubmitBTN"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif"
+        android:onClick="start"
+        android:text="@string/start_quiz"
+        android:textSize="25sp" />
+
+</RelativeLayout>

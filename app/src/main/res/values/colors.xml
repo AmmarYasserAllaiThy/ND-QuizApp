@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <!--    <color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">@android:color/holo_red_light</color>
+
+    <color name="progress">#9AD880</color>
+    <color name="progress_bg">#FF737D</color>
+
+    <color name="answerStartColor">#13C7B4</color>
+    <color name="answerEndColor">#009688</color>
+
+    <color name="submitStartColor">#00BCD4</color>
+    <color name="submitEndColor">#9C27B0</color>
+</resources>
