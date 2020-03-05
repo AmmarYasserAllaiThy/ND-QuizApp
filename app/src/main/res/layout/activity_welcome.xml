@@ -5,36 +5,42 @@
     android:layout_height="match_parent"
     tools:context=".WelcomeActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:padding="20dp">
+        android:layout_above="@id/start_btn"
+        android:layout_alignParentTop="true">
 
-        <ImageView style="@style/Logo" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-        <TextView style="@style/AppName" />
+            <ImageView style="@style/Logo" />
 
-        <TextView
-            style="@style/NTV"
-            android:text="@string/welcome_text" />
+            <TextView style="@style/AppName" />
 
-        <TextView
-            style="@style/NTV"
-            android:layout_width="wrap_content"
-            android:drawableStart="@drawable/ic_github"
-            android:drawablePadding="8dp"
-            android:gravity="center"
-            android:text="@string/my_name" />
-    </LinearLayout>
+            <TextView
+                style="@style/NTV"
+                android:text="@string/welcome_text" />
+
+            <TextView
+                style="@style/NTV"
+                android:layout_width="wrap_content"
+                android:drawableStart="@drawable/ic_github"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:text="@string/my_name" />
+        </LinearLayout>
+    </ScrollView>
 
     <Button
+        android:id="@+id/start_btn"
         style="@style/SubmitBTN"
         android:layout_margin="30dp"
         android:fontFamily="sans-serif"
-        android:onClick="start"
         android:text="@string/start_quiz"
         android:textSize="25sp" />
-
 </RelativeLayout>
