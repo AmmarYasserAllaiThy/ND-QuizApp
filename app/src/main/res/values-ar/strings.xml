@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اختبر معلوماتك</string>
+    <string name="logo">لوجو</string>
+    <string name="welcome_text">احد التطبيقات العملية لبرنامج النانو ديجري في تطوير تطبيقات الاندرويد على منصة Udacity</string>
+    <string name="my_name">AmmarYasserAllaiThy</string>
+    <string name="start_quiz">بدأ اختبار جديد</string>
+    <string name="question_id">%1$d من %2$d</string>
+    <string name="submit">التالي</string>
+    <string name="quiz_result">نتيجة الاختبار</string>
+    <string name="correct_answers">%1$d اجابات صحيحة</string>
+    <string name="wrong_answers">%1$d اجابات خاطئة</string>
+    <string name="write_here">اكتبها هنا</string>
+    <string name="other">أخرى:</string>
+
+    <string name="q1">اي من الحروف الاتية ليس من حروف المد؟</string>
+    <string-array name="q1">
+        <item>ي</item>
+        <item>و</item>
+        <item>ص</item>
+    </string-array>
+    <integer name="q1">2</integer>
+
+    <string name="q2">بأي نادي كان يلعب اللاعب المصري محمد ابو تريكة؟</string>
+    <string-array name="q2">
+        <item>الزمالك</item>
+        <item>الاسماعيلي</item>
+        <item>الاهلي</item>
+    </string-array>
+    <integer name="q2">2</integer>
+
+    <string name="q3">ما هو الطائر المنقرض في عام 1660 والمعوف بغبائه؟</string>
+    <string-array name="q3">
+        <item>طائر الدودو</item>
+        <item>الديناصورات الطائرة</item>
+        <item>الماموث</item>
+    </string-array>
+    <integer name="q3">0</integer>
+
+    <string name="q4">يتصل مخ الانسان بباقي اجزاء الجسم عن طريق</string>
+    <string-array name="q4">
+        <item>الاوتار</item>
+        <item>الاعصاب</item>
+        <item>العضلات</item>
+    </string-array>
+    <integer name="q4">1</integer>
+
+    <string name="q5">يقال ان نيوتن استلهم نظرية الجاذبية من</string>
+    <string-array name="q5">
+        <item>الحشرات</item>
+        <item>الاحجار</item>
+        <item>التفاحة</item>
+    </string-array>
+    <integer name="q5">2</integer>
+
+    <string name="q6">متى اطلق نظام انرويد؟</string>
+    <string-array name="q6">
+        <item>2005</item>
+        <item>2008</item>
+        <item>2010</item>
+    </string-array>
+    <integer name="q6">1</integer>
+
+    <string name="q7">اذا اردت دهان حائط بيتك بلون اخضر، اي لونين ستمزجهم للحصول على الاخضر؟</string>
+    <string-array name="q7">
+        <item>احمر مع اصفر</item>
+        <item>ازرق مع اصفر</item>
+        <item>احمر مع ازرق</item>
+    </string-array>
+    <integer name="q7">1</integer>
+
+    <string name="q8">ما هو اطول نهر في العالم؟</string>
+    <string-array name="q8">
+        <item>الامازون</item>
+        <item>النيل</item>
+        <item>المسيسبي</item>
+    </string-array>
+    <integer name="q8">1</integer>
+
+    <string name="q9">في أي قارة تفع دولة اريتريا والتي اصبحت العضو 182 بالامم المتحدة عام 1993؟</string>
+    <string-array name="q9">
+        <item>اسيا</item>
+        <item>افريقيا</item>
+        <item>اوروبا</item>
+    </string-array>
+    <integer name="q9">1</integer>
+
+    <string name="q10">اي من الاعداد الاتية عدد اولي؟</string>
+    <string-array name="q10">
+        <item>1</item>
+        <item>7</item>
+        <item>12</item>
+    </string-array>
+    <integer name="q10">1</integer>
+
+    <string name="q11">بأي لغة يتحدث سكان استراليا؟</string>
+    <string-array name="q11">
+        <item>الالمانية</item>
+        <item>الاسترالية</item>
+        <item>الهنجارية</item>
+    </string-array>
+    <integer name="q11">0</integer>
+
+    <string name="q12">من هو مخترع المصباح الكهربائي؟</string>
+    <string-array name="q12">
+        <item>الكسندر جراهام بيل</item>
+        <item>نيكولا تيسلا</item>
+        <item>توماس اديسون</item>
+    </string-array>
+    <integer name="q12">2</integer>
+
+    <string name="q13">متى تأسست شركة جوجل؟</string>
+    <string-array name="q13">
+        <item>1996</item>
+        <item>1998</item>
+        <item>2002</item>
+    </string-array>
+    <integer name="q13">1</integer>
+
+    <string name="q14">ما اقرب دولة من الدول الاتية للقطب الشمالي؟</string>
+    <string-array name="q14">
+        <item>فينلندا</item>
+        <item>الصين</item>
+        <item>المانيا</item>
+    </string-array>
+    <integer name="q14">0</integer>
+
+    <string name="q15">بأي شكل تمر خطوط الطول عبر الكرة الارضية؟</string>
+    <string-array name="q15">
+        <item>من الشرق للغرب</item>
+        <item>من الشمال للجنوب</item>
+        <item>موازية لخط الاستواء</item>
+    </string-array>
+    <integer name="q15">1</integer>
+
+    <string name="q16">اين تقع اهرامات مصر المشهورة؟</string>
+    <string-array name="q16">
+        <item>القاهرة</item>
+        <item>الجيزة</item>
+        <item>الاقصر</item>
+    </string-array>
+    <integer name="q16">1</integer>
+
+    <string name="q17">ما اكبر المحيطات مساحة؟</string>
+    <string-array name="q17">
+        <item>المحيط الاطلنطي</item>
+        <item>المحيط الهادي</item>
+        <item>المحيط الهندي</item>
+    </string-array>
+    <integer name="q17">1</integer>
+
+    <string name="q18">اي من وحدات القياس الاتية ليست جزء من النظام المتري؟</string>
+    <string-array name="q18">
+        <item>المتر</item>
+        <item>اللتر</item>
+        <item>الجرام</item>
+    </string-array>
+    <integer name="q18">3</integer>
+
+    <string name="q19">ما اسم المادة التي تخرج من البركان اثناء فورانه؟</string>
+    <string-array name="q19">
+        <item>ضخور بركانية</item>
+        <item>حمم بركانية</item>
+        <item>غازات بركانية</item>
+    </string-array>
+    <integer name="q19">1</integer>
+
+    <string name="q20">كم عدد اجزاء القرآن الكريم؟</string>
+    <string-array name="q20">
+        <item>50</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <integer name="q20">1</integer>
+
+    <string name="q21">في اي من المجالات الاتية تقدم جائزة نوبل؟</string>
+    <string-array name="q21">
+        <item>الفيزياء والكيمياء وعلم النفس والطب</item>
+        <item>الادب والسلام والاقتصاد</item>
+        <item>جميع ما سبق</item>
+    </string-array>
+    <integer name="q21">2</integer>
+
+    <string name="q22">كم عدد الصلوات المفروضة على المسلم في اليوم والليلة؟</string>
+    <string-array name="q22">
+        <item>50</item>
+        <item>5</item>
+        <item>12</item>
+    </string-array>
+    <integer name="q22">1</integer>
+
+    <string name="q23">جاليليو عالم الفلك الايطالي المشهور هو من…</string>
+    <string-array name="q23">
+        <item>اخترع التليسكوب</item>
+        <item>اكتشف أن حركة البندول تنتج قياسات زمنية منتظمة</item>
+        <item>جميع ما سبق</item>
+    </string-array>
+    <integer name="q23">2</integer>
+
+    <string name="q24">خاضت الصين حربها الاولى مع</string>
+    <string-array name="q24">
+        <item>بريطانيا</item>
+        <item>مصر</item>
+        <item>امريكا</item>
+    </string-array>
+    <integer name="q24">0</integer>
+
+</resources>

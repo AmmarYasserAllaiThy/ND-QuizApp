@@ -1,43 +1,53 @@
 package com.example.ammaryasser.quizapp;
 
+import android.content.Context;
+
 import java.util.ArrayList;
 
 class QuizFactory {
 
-    private static final ArrayList<Quiz> quizzes = new ArrayList<>();
-    private static ArrayList<Integer> oldQuizzesList = new ArrayList<>();
+    private final ArrayList<Quiz> quizzes;
+    private ArrayList<Integer> oldQuizzesList;
+    private Context context;
 
     /**
-     * Initialize 26 different quizzes and randomly generate 10 each starting one.
+     * Initialize 24 different quizzes and randomly generate 10 each starting one.
      */
-    static {
-        quizzes.add(new Quiz(2, "Which of these letters is not a vowel?", "I", "O", "W", "A"));
-        quizzes.add(new Quiz(2, "Agent 007, featured in many movies dating back to 1962, is known as _______ Bond?", "John", "Benedict", "James", "Elizier"));
-        quizzes.add(new Quiz(0, "What flightless bird went extinct in the 1660s and has a reputation for stupidity?", "The dodo bird", "The Labrador duck", "The laughing owl", "The passenger pigeon"));
-        quizzes.add(new Quiz(1, "The human brain communicates with the rest of the body through networks of what?", "Tendons", "Nerves", "Muscles", "Lipids"));
-        quizzes.add(new Quiz(2, "Newton is said to have been inspired by what to describe the theory of gravity?", "Ladder", "Hailstone", "Apple", "Rock"));
-        quizzes.add(new Quiz(1, "According to the Big Bang Theory, how did the universe begin?", "A rain storm", "An explosion", "A slow, calm expansion", "A meteor shower"));
-        quizzes.add(new Quiz(1, "You want to make green paint. Which colors do you mix together?", "Red and yellow", "Blue and yellow", "Orange and purple", "Red and blue"));
-        quizzes.add(new Quiz(1, "Which is the longest river in the world?", "Amazon", "Nile", "Mississippi", "Blue river"));
-        quizzes.add(new Quiz(1, "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of", "Asia", "Africa", "Europe", "Australia"));
-        quizzes.add(new Quiz(1, "Which of the following is a prime number?", "1", "7", "12", "20"));
-        quizzes.add(new Quiz(0, "What language do most people in Austria speak?", "German", "Austrian", "Hungarian", "English"));
-        quizzes.add(new Quiz(2, "It takes a bright person to innovate! Who is credited with inventing the lightbulb?", "Alexander Graham Bell", "Benjamin Franklin", "Thomas Edison", "James Watt"));
-        quizzes.add(new Quiz(2, "Who was president of the United States in 2005?", "Bill Clinton", "Barack Obama", "George W. Bush", "George H.W. Bush"));
-        quizzes.add(new Quiz(0, "Which country is closer to the North Pole?", "Finland", "China", "Germany", "North Korea"));
-        quizzes.add(new Quiz(1, "Which way do the longitude lines run on our planet?", "East to West", "North to South", "West to North", "South to East"));
-        quizzes.add(new Quiz(0, "Where are the famous Egyptian Pyramids located?", "Giza", "Cairo", "Thebes", "Alexandria"));
-        quizzes.add(new Quiz(1, "Which ocean is the largest?", "Atlantic", "Pacific", "Arab Gulf", "Indian"));
-        quizzes.add(new Quiz(0, "Which of the following units of measurement is NOT part of the Metric System?", "Ounces", "Meters", "Grams", "Liter"));
-        quizzes.add(new Quiz(1, "The bright stuff spewing out of this volcano is called...?", "Fire", "Lava", "Magma", "Honey"));
-        quizzes.add(new Quiz(2, "Which German city is famous for the perfume it produces?", "Berlin", "Sniffburg", "Cologne", "Bremen"));
-        quizzes.add(new Quiz(3, "For which of the following disciplines is Nobel Prize awarded?", "Physics and Chemistry", "Physiology or Medicine", "Literature, Peace and Economics", "All of the above"));
-        quizzes.add(new Quiz(1, "Hitler party which came into power in 1933 is known as", "Labour Party", "Nazi Party", "Ku-Klux-Klan", "Democratic Party"));
-        quizzes.add(new Quiz(3, "Galileo was an Italian astronomer who", "developed the telescope", "developed the telescope", "discovered that the movement of pendulum produces a regular time measurement", "All of the above"));
-        quizzes.add(new Quiz(0, "First China War was fought between", "China and Britain", "China and France", "China and Egypt", "China and Greek"));
+    QuizFactory(Context context) {
+        this.context = context;
+        quizzes = new ArrayList<>();
+        quizzes.add(new Quiz(getInteger(R.integer.q1), getString(R.string.q1), getStringArray(R.array.q1)));
+        quizzes.add(new Quiz(getInteger(R.integer.q2), getString(R.string.q2), getStringArray(R.array.q2)));
+        quizzes.add(new Quiz(getInteger(R.integer.q3), getString(R.string.q3), getStringArray(R.array.q3)));
+        quizzes.add(new Quiz(getInteger(R.integer.q4), getString(R.string.q4), getStringArray(R.array.q4)));
+        quizzes.add(new Quiz(getInteger(R.integer.q5), getString(R.string.q5), getStringArray(R.array.q5)));
+        quizzes.add(new Quiz(getInteger(R.integer.q6), getString(R.string.q6), getStringArray(R.array.q6)));
+        quizzes.add(new Quiz(getInteger(R.integer.q7), getString(R.string.q7), getStringArray(R.array.q7)));
+        quizzes.add(new Quiz(getInteger(R.integer.q8), getString(R.string.q8), getStringArray(R.array.q8)));
+        quizzes.add(new Quiz(getInteger(R.integer.q9), getString(R.string.q9), getStringArray(R.array.q9)));
+        quizzes.add(new Quiz(getInteger(R.integer.q10), getString(R.string.q10), getStringArray(R.array.q10)));
+        quizzes.add(new Quiz(getInteger(R.integer.q11), getString(R.string.q11), getStringArray(R.array.q11)));
+        quizzes.add(new Quiz(getInteger(R.integer.q12), getString(R.string.q12), getStringArray(R.array.q12)));
+        quizzes.add(new Quiz(getInteger(R.integer.q13), getString(R.string.q13), getStringArray(R.array.q13)));
+        quizzes.add(new Quiz(getInteger(R.integer.q14), getString(R.string.q14), getStringArray(R.array.q14)));
+        quizzes.add(new Quiz(getInteger(R.integer.q15), getString(R.string.q15), getStringArray(R.array.q15)));
+        quizzes.add(new Quiz(getInteger(R.integer.q16), getString(R.string.q16), getStringArray(R.array.q16)));
+        quizzes.add(new Quiz(getInteger(R.integer.q17), getString(R.string.q17), getStringArray(R.array.q17)));
+        quizzes.add(new Quiz(getInteger(R.integer.q18), getString(R.string.q18), getStringArray(R.array.q18)));
+        quizzes.add(new Quiz(getInteger(R.integer.q19), getString(R.string.q19), getStringArray(R.array.q19)));
+        quizzes.add(new Quiz(getInteger(R.integer.q20), getString(R.string.q20), getStringArray(R.array.q20)));
+        quizzes.add(new Quiz(getInteger(R.integer.q21), getString(R.string.q21), getStringArray(R.array.q21)));
+        quizzes.add(new Quiz(getInteger(R.integer.q22), getString(R.string.q22), getStringArray(R.array.q22)));
+        quizzes.add(new Quiz(getInteger(R.integer.q23), getString(R.string.q23), getStringArray(R.array.q23)));
+        quizzes.add(new Quiz(getInteger(R.integer.q24), getString(R.string.q24), getStringArray(R.array.q24)));
+        reset();
     }
 
-    static Quiz getNext() {
+    void reset() {
+        oldQuizzesList = new ArrayList<>();
+    }
+
+    Quiz getNext() {
         if (oldQuizzesList.size() < 10) {
             int n = getRandomQuiz();
             while (isOldQuiz(n)) n = getRandomQuiz();
@@ -46,17 +56,25 @@ class QuizFactory {
         return null;
     }
 
-    private static boolean isOldQuiz(int newQuiz) {
+    private boolean isOldQuiz(int newQuiz) {
         for (int oldQuiz : oldQuizzesList) if (oldQuiz == newQuiz) return true;
         oldQuizzesList.add(newQuiz);
         return false;
     }
 
-    private static int getRandomQuiz() {
+    private int getRandomQuiz() {
         return (int) (Math.random() * quizzes.size());
     }
 
-    static void reset() {
-        oldQuizzesList = new ArrayList<>();
+    private int getInteger(int resId) {
+        return context.getResources().getInteger(resId);
+    }
+
+    private String getString(int resId) {
+        return context.getString(resId);
+    }
+
+    private String[] getStringArray(int resId) {
+        return context.getResources().getStringArray(resId);
     }
 }

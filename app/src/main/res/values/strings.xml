@@ -9,4 +9,201 @@
     <string name="quiz_result">Quiz result</string>
     <string name="correct_answers">%1$d Correct Answers</string>
     <string name="wrong_answers">%1$d Wrong Answers</string>
+
+    <string name="q1">Which of these letters is not a vowel?</string>
+    <string name="q2">Agent 007, featured in many movies dating back to 1962, is known as _______ Bond?</string>
+    <string name="q3">What flightless bird went extinct in the 1660s and has a reputation for stupidity?</string>
+    <string name="q4">The human brain communicates with the rest of the body through networks of what?</string>
+    <string name="q5">Newton is said to have been inspired by what to describe the theory of gravity?</string>
+    <string name="q6">According to the Big Bang Theory, how did the universe begin?</string>
+    <string name="q7">You want to make green paint. Which colors do you mix together?</string>
+    <string name="q8">Which is the longest river in the world?</string>
+    <string name="q9">Eritrea, which became the 182nd member of the UN in 1993, is in the continent of</string>
+    <string name="q10">Which of the following is a prime number?</string>
+    <string name="q11">What language do most people in Austria speak?</string>
+    <string name="q12">It takes a bright person to innovate! Who is credited with inventing the lightbulb?</string>
+    <string name="q13">Who was president of the United States in 2005?</string>
+    <string name="q14">Which country is closer to the North Pole?</string>
+    <string name="q15">Which way do the longitude lines run on our planet?</string>
+    <string name="q16">Where are the famous Egyptian Pyramids located?</string>
+    <string name="q17">Which ocean is the largest?</string>
+    <string name="q18">Which of the following units of measurement is NOT part of the Metric System?</string>
+    <string name="q19">The bright stuff spewing out of this volcano is called…?</string>
+    <string name="q20">Which German city is famous for the perfume it produces?</string>
+    <string name="q21">For which of the following disciplines is Nobel Prize awarded?</string>
+    <string name="q22">Hitler party which came into power in 1933 is known as</string>
+    <string name="q23">Galileo was an Italian astronomer who</string>
+    <string name="q24">First China War was fought between</string>
+    <string name="write_here">Write it here</string>
+    <string name="other">Other:</string>
+
+    <string-array name="q1">
+        <item>I</item>
+        <item>O</item>
+        <item>W</item>
+    </string-array>
+
+    <string-array name="q2">
+        <item>John</item>
+        <item>Benedict</item>
+        <item>James</item>
+    </string-array>
+
+    <string-array name="q3">
+        <item>The dodo bird</item>
+        <item>The Labrador duck</item>
+        <item>The laughing owl</item>
+    </string-array>
+
+    <string-array name="q4">
+        <item>Tendons</item>
+        <item>Nerves</item>
+        <item>Muscles</item>
+    </string-array>
+
+    <string-array name="q5">
+        <item>Ladder</item>
+        <item>Hailstone</item>
+        <item>Apple</item>
+    </string-array>
+
+    <string-array name="q6">
+        <item>A rain storm</item>
+        <item>An explosion</item>
+        <item>A slow calm expansion</item>
+    </string-array>
+
+    <string-array name="q7">
+        <item>Red and yellow</item>
+        <item>Blue and yellow</item>
+        <item>Orange and purple</item>
+    </string-array>
+
+    <string-array name="q8">
+        <item>Amazon</item>
+        <item>Nile</item>
+        <item>Mississippi</item>
+    </string-array>
+
+    <string-array name="q9">
+        <item>Asia</item>
+        <item>Africa</item>
+        <item>Europe</item>
+    </string-array>
+
+    <string-array name="q10">
+        <item>1</item>
+        <item>7</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="q11">
+        <item>German</item>
+        <item>Austrian</item>
+        <item>Hungarian</item>
+    </string-array>
+
+    <string-array name="q12">
+        <item>Alexander Graham Bell</item>
+        <item>Benjamin Franklin</item>
+        <item>Thomas Edison</item>
+    </string-array>
+
+    <string-array name="q13">
+        <item>Bill Clinton</item>
+        <item>Barack Obama</item>
+        <item>George W. Bush</item>
+    </string-array>
+
+    <string-array name="q14">
+        <item>Finland</item>
+        <item>China</item>
+        <item>Germany</item>
+    </string-array>
+
+    <string-array name="q15">
+        <item>East to West</item>
+        <item>North to South</item>
+        <item>West to North</item>
+    </string-array>
+
+    <string-array name="q16">
+        <item>Giza</item>
+        <item>Cairo</item>
+        <item>Thebes</item>
+    </string-array>
+
+    <string-array name="q17">
+        <item>Atlantic</item>
+        <item>Pacific</item>
+        <item>Arab Gulf</item>
+    </string-array>
+
+    <string-array name="q18">
+        <item>Ounces</item>
+        <item>Meters</item>
+        <item>Grams</item>
+    </string-array>
+
+    <string-array name="q19">
+        <item>Fire</item>
+        <item>Lava</item>
+        <item>Magma</item>
+    </string-array>
+
+    <string-array name="q20">
+        <item>Berlin</item>
+        <item>Sniffburg</item>
+        <item>Cologne</item>
+    </string-array>
+
+    <string-array name="q21">
+        <item>Physics, Chemistry, Physiology and Medicine</item>
+        <item>Literature Peace and Economics</item>
+        <item>All of the above</item>
+    </string-array>
+
+    <string-array name="q22">
+        <item>Labour Party</item>
+        <item>Nazi Party</item>
+        <item>Ku-Klux-Klan</item>
+    </string-array>
+
+    <string-array name="q23">
+        <item>developed the telescope</item>
+        <item>discovered that the movement of pendulum produces a regular time measurement</item>
+        <item>All of the above</item>
+    </string-array>
+
+    <string-array name="q24">
+        <item>China and Britain</item>
+        <item>China and France</item>
+        <item>China and Egypt</item>
+    </string-array>
+
+    <integer name="q1">2</integer>
+    <integer name="q2">2</integer>
+    <integer name="q3">0</integer>
+    <integer name="q4">1</integer>
+    <integer name="q5">2</integer>
+    <integer name="q6">1</integer>
+    <integer name="q7">1</integer>
+    <integer name="q8">1</integer>
+    <integer name="q9">1</integer>
+    <integer name="q10">1</integer>
+    <integer name="q11">0</integer>
+    <integer name="q12">2</integer>
+    <integer name="q13">2</integer>
+    <integer name="q14">0</integer>
+    <integer name="q15">1</integer>
+    <integer name="q16">0</integer>
+    <integer name="q17">1</integer>
+    <integer name="q18">0</integer>
+    <integer name="q19">1</integer>
+    <integer name="q20">2</integer>
+    <integer name="q21">2</integer>
+    <integer name="q22">1</integer>
+    <integer name="q23">2</integer>
+    <integer name="q24">0</integer>
+
 </resources>
