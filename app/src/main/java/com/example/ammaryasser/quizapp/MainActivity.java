@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private int id = 0;
     private int correctRadioId;
     private int correctAnswersNo = 0;
+    private Toast toast = null;
 
     private final RadioGroup.OnCheckedChangeListener groupListener = (group, checkedId) -> checkBox.setChecked(checkedId == -1);
     private final CheckBox.OnCheckedChangeListener boxListener = (buttonView, isChecked) -> {
@@ -51,10 +52,11 @@ public class MainActivity extends AppCompatActivity {
     private final View.OnClickListener submitListener = view -> {
         int id = radioGroup.getCheckedRadioButtonId();
         if (checkBox.isChecked() || id != -1) {
-            Toast.makeText(this,
+            if (toast != null) toast.cancel();
+            toast = Toast.makeText(this,
                     (id == correctRadioId ? "✔ Correct" : "✘ Wrong") + " answer",
-                    Toast.LENGTH_SHORT
-            ).show();
+                    Toast.LENGTH_SHORT);
+            toast.show();
             if (id == correctRadioId) correctAnswersNo++;
             countDown.onFinish();
         } else Toast.makeText(this, "No answer selected", Toast.LENGTH_SHORT).show();
@@ -102,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 progressBar.setProgress(0);
                 if (!showNextQuiz()) {
                     cancel();
+                    if (toast != null) toast.cancel();
                     startActivity(new Intent(getApplicationContext(), ResultsActivity.class).putExtra(
                             "correctAnswersNo", correctAnswersNo));
                     finish();

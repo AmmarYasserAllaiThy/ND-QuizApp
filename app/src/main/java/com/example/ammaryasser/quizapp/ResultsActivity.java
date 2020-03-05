@@ -26,6 +26,6 @@ public class ResultsActivity extends AppCompatActivity {
         wrongTV.setText(getString(R.string.wrong_answers, 10 - correctAnswersNo));
         progressBar.setProgress(correctAnswersNo);
 
-        Toast.makeText(this, "Your score = " + correctAnswersNo + "/10", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Your score = " + correctAnswersNo + "/10", Toast.LENGTH_SHORT).show();
     }
 }
