@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         countDown.cancel();
+        finish();
     }
 
     @Override
@@ -95,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
         quizFactory.reset();
-        int duration = 10000;
+        int duration = 15000;
         countDown = new QuizCountDown(duration, 10) {
             public void onFinish() {
                 progressBar.setProgress(0);

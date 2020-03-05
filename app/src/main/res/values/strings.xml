@@ -206,4 +206,69 @@
     <integer name="q23">2</integer>
     <integer name="q24">0</integer>
 
+
+    <string name="q25">How many colors in Egypt flag?</string>
+    <string-array name="q25">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <integer name="q25">1</integer>
+
+    <string name="q26">In which language does \'spasíbo\' (usually written in its native script) mean \'thank you\'?</string>
+    <string-array name="q26">
+        <item>Russian</item>
+        <item>German</item>
+        <item>Australian</item>
+    </string-array>
+    <integer name="q26">0</integer>
+
+    <string name="q27">What was the name of the character played by Emilia Clarke in ‘Game of Thrones’?</string>
+    <string-array name="q27">
+        <item>Cersei Lannister</item>
+        <item>Daenerys Targaryen</item>
+        <item>Sansa Stark</item>
+    </string-array>
+    <integer name="q27">1</integer>
+
+    <string name="q28">What is the actress who played \'Sansa Stark\' role  in ‘Game of Thrones’?</string>
+    <string-array name="q28">
+        <item>Emilia Clarke</item>
+        <item>Sophie Turner</item>
+        <item>Maisie Williams</item>
+    </string-array>
+    <integer name="q28">1</integer>
+
+    <string name="q29">In which country would you find the coastal resort of Lara Beach?</string>
+    <string-array name="q29">
+        <item>Turkey</item>
+        <item>America</item>
+        <item>Egypt</item>
+    </string-array>
+    <integer name="q29">0</integer>
+
+    <string name="q30">Who played the title character in the BBC series ‘Jonathan Creek’?</string>
+    <string-array name="q30">
+        <item>Alan Davies</item>
+        <item>Jamie Dornan</item>
+        <item>Shia LaBeouf</item>
+    </string-array>
+    <integer name="q30">0</integer>
+
+    <string name="q31">What is the actress who played \'Anastasia Steele\' role  in ‘Fifty Shades of Grey’?</string>
+    <string-array name="q31">
+        <item>Rachael Taylor</item>
+        <item>Dakota Johnson</item>
+        <item>Megan Fox</item>
+    </string-array>
+    <integer name="q31">1</integer>
+
+    <string name="q32">How many official languages in Switzerland?</string>
+    <string-array name="q32">
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <integer name="q32">2</integer>
+
 </resources>

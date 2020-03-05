@@ -205,4 +205,68 @@
     </string-array>
     <integer name="q24">0</integer>
 
+    <string name="q25">ما هو النهر الذي يفصل بين الولايات المتحده والمكسيك؟</string>
+    <string-array name="q25">
+        <item>البوج</item>
+        <item>الريوجراند</item>
+        <item>الراين</item>
+    </string-array>
+    <integer name="q25">1</integer>
+
+    <string name="q26">الميجالودون حيوان منقرض من فصيلة؟</string>
+    <string-array name="q26">
+        <item>المائيات</item>
+        <item>البرمائيات</item>
+        <item>البريات</item>
+    </string-array>
+    <integer name="q26">0</integer>
+
+    <string name="q27">اين يوجد مقر مجلس التعاون لدول الخليج العربي؟</string>
+    <string-array name="q27">
+        <item>القاهرة</item>
+        <item>الرياض</item>
+        <item>ابو ظبي</item>
+    </string-array>
+    <integer name="q27">1</integer>
+
+    <string name="q28">من هو مؤلف كتاب مقدمة التاريخ؟</string>
+    <string-array name="q28">
+        <item>ابن سينا</item>
+        <item>الرافعي</item>
+        <item>ابن خلدون</item>
+    </string-array>
+    <integer name="q28">2</integer>
+
+    <string name="q29">ما هو نظام الحكم في الولايات المتحدة الامريكية؟</string>
+    <string-array name="q29">
+        <item>رئاسي</item>
+        <item>برلماني</item>
+        <item>شبه رئاسي</item>
+    </string-array>
+    <integer name="q29">0</integer>
+
+    <string name="q30">متي قامت الثورة الصناعيه الاولي؟</string>
+    <string-array name="q30">
+        <item>في بداية القرن الـ19</item>
+        <item>في نهاية القرن الـ18</item>
+        <item>في نهاية القرن الـ19</item>
+    </string-array>
+    <integer name="q30">0</integer>
+
+    <string name="q31">متي نشأت منظمة الامم المتحدة؟</string>
+    <string-array name="q31">
+        <item>بعد الحرب العالمية الثانية</item>
+        <item>بعد الحرب العالمية الأولى</item>
+        <item>قبل الحرب العالمية الثانية</item>
+    </string-array>
+    <integer name="q31">0</integer>
+
+    <string name="q32">كم عدد اللغات الرسميه في دوله سويسرا؟</string>
+    <string-array name="q32">
+        <item>لغة واحدة</item>
+        <item>لغتين</item>
+        <item>4 لغات</item>
+    </string-array>
+    <integer name="q32">2</integer>
+
 </resources>

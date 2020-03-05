@@ -40,6 +40,14 @@ class QuizFactory {
         quizzes.add(new Quiz(getInteger(R.integer.q22), getString(R.string.q22), getStringArray(R.array.q22)));
         quizzes.add(new Quiz(getInteger(R.integer.q23), getString(R.string.q23), getStringArray(R.array.q23)));
         quizzes.add(new Quiz(getInteger(R.integer.q24), getString(R.string.q24), getStringArray(R.array.q24)));
+        quizzes.add(new Quiz(getInteger(R.integer.q25), getString(R.string.q25), getStringArray(R.array.q25)));
+        quizzes.add(new Quiz(getInteger(R.integer.q26), getString(R.string.q26), getStringArray(R.array.q26)));
+        quizzes.add(new Quiz(getInteger(R.integer.q27), getString(R.string.q27), getStringArray(R.array.q27)));
+        quizzes.add(new Quiz(getInteger(R.integer.q28), getString(R.string.q28), getStringArray(R.array.q28)));
+        quizzes.add(new Quiz(getInteger(R.integer.q29), getString(R.string.q29), getStringArray(R.array.q29)));
+        quizzes.add(new Quiz(getInteger(R.integer.q30), getString(R.string.q30), getStringArray(R.array.q30)));
+        quizzes.add(new Quiz(getInteger(R.integer.q31), getString(R.string.q31), getStringArray(R.array.q31)));
+        quizzes.add(new Quiz(getInteger(R.integer.q32), getString(R.string.q32), getStringArray(R.array.q32)));
         reset();
     }
 
