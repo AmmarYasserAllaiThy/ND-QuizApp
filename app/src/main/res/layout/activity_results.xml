@@ -5,42 +5,48 @@
     android:layout_height="match_parent"
     tools:context=".ResultsActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <ImageView style="@style/Logo" />
-
-        <TextView
-            style="@style/AppName"
-            android:text="@string/quiz_result" />
+        android:layout_centerInParent="true">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView style="@style/Logo" />
 
             <TextView
-                android:id="@+id/correct_tv"
-                style="@style/ResultTV"
-                android:background="@color/progress"
-                android:drawableStart="@drawable/ic_checkbox" />
+                style="@style/AppName"
+                android:text="@string/quiz_result" />
 
-            <TextView
-                android:id="@+id/wrong_tv"
-                style="@style/ResultTV"
-                android:background="@color/progress_bg"
-                android:drawableStart="@drawable/ic_cancel" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/correct_tv"
+                    style="@style/ResultTV"
+                    android:background="@color/progress"
+                    android:drawableStart="@drawable/ic_checkbox" />
+
+                <TextView
+                    android:id="@+id/wrong_tv"
+                    style="@style/ResultTV"
+                    android:background="@color/progress_bg"
+                    android:drawableStart="@drawable/ic_cancel" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="@style/CustomProgressBar"
+                android:layout_height="20dp"
+                android:layout_margin="25dp"
+                android:max="10" />
         </LinearLayout>
-
-        <ProgressBar
-            android:id="@+id/progressbar"
-            style="@style/CustomProgressBar"
-            android:layout_height="20dp"
-            android:layout_margin="25dp"
-            android:max="10" />
-    </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

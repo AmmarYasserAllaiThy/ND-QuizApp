@@ -3,6 +3,7 @@ package com.example.ammaryasser.quizapp;
 import android.os.Bundle;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,5 +25,7 @@ public class ResultsActivity extends AppCompatActivity {
         correctTV.setText(getString(R.string.correct_answers, correctAnswersNo));
         wrongTV.setText(getString(R.string.wrong_answers, 10 - correctAnswersNo));
         progressBar.setProgress(correctAnswersNo);
+
+        Toast.makeText(this, "Your score = " + correctAnswersNo + "/10", Toast.LENGTH_LONG).show();
     }
 }
